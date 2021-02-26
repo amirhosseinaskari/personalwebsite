@@ -1,0 +1,32 @@
+.sectionRed {
+  background-image: url("../images/red.svg");
+  margin-top: 0px;
+  height: 363px;
+  width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+}
+.heading1 {
+  position: absolute;
+  color: white;
+  display: block;
+  font-size: 48px;
+  width: 745px;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 400;
+  margin-top: -1.5rem;
+}
+.span {
+  font-weight: 700;
+}
+@media (max-width: 1100px) {
+  .heading1 {
+    width: 84%;
+    font-size: 34px;
+  }
+}

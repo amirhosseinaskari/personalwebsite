@@ -1,0 +1,45 @@
+.section {
+  margin: auto 9%;
+  padding: 10rem 0;
+  margin-top: 20rem;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 5rem;
+}
+.content {
+  width: 500px;
+}
+.pana {
+  width: 550px;
+  display: flex;
+  margin-top: 2rem;
+}
+.panaImage {
+  width: 100%;
+}
+.line {
+  margin-top: -1rem;
+}
+.paragraph {
+  font-size: 18px;
+  margin-top: 1rem;
+  line-height: 1.6;
+}
+@media (max-width: 1100px) {
+  .section {
+    flex-direction: column-reverse;
+  }
+  .content {
+    width: 100%;
+  }
+  .pana {
+    width: 100%;
+  }
+  .pana {
+    margin-top: -1rem;
+  }
+  .heading1 {
+    margin-top: 1rem;
+    font-size: 32px;
+  }
+}
